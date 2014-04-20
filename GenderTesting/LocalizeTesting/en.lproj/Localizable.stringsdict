@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>%@ is %lu (his/her/their) name</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%@ is %2$#@pronoun_gender@ name</string>
+            <key>pronoun_gender</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringGenderRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>lu</string>
+                <key>0</key>
+                <string>his</string>
+                <key>1</key>
+                <string>her</string>
+                <key>2</key>
+                <string>their</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>
