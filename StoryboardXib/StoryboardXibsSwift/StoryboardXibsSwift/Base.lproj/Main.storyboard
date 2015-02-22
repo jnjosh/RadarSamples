@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jVL-OR-dSC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Eg2-gY-TOi">
+            <objects>
+                <navigationController id="jVL-OR-dSC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NYW-5t-roq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="p3T-lL-V14" kind="relationship" relationship="rootViewController" id="Qwx-pp-YZT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Oz-rh-Wc4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72" y="515"/>
+        </scene>
+        <!--Sample View Controller-->
+        <scene sceneID="mNY-Cy-IVb">
+            <objects>
+                <viewController id="p3T-lL-V14" customClass="SampleViewController" customModule="StoryboardXibsSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="fYk-3K-0Xb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dto-Kk-HAn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="779" y="515"/>
+        </scene>
+    </scenes>
+</document>
